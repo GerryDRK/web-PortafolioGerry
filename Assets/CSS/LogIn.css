@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Righteous&display=swap');
+
+/* Estilos generales */
+html {
+    height: 100%;
+    background: linear-gradient(to bottom, #4C3973, #2d1a3a);
+}
+
+body {
+    font-family: 'Kumbh', sans-serif;
+	background: linear-gradient(to bottom, #4C3973, #2d1a3a);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+/* Estilos del formulario */
+.contenedor-central {
+    position: fixed; /* O puedes usar 'absolute' si prefieres */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%; /* O el ancho que prefieras */
+    max-width: 500px; /* O el máximo ancho que prefieras */
+}
+
+.Fomulario-Ingresar {
+    background-color: #fff;
+    padding: 80px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.Fomulario-Ingresar h1 {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.Fomulario-Ingresar form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Fomulario-Ingresar label {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.Fomulario-Ingresar input[type="email"],
+.Fomulario-Ingresar input[type="password"] {
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+
+.Fomulario-Ingresar input[type="submit"] {
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #BF264F;
+    color: white;
+    cursor: pointer;
+}
+
+.Fomulario-Ingresar input[type="submit"]:hover {
+    background-color: #881836;
+}
+
+.Fomulario-Ingresar a {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.Fomulario-Ingresar a:hover {
+    text-decoration: underline;
+}

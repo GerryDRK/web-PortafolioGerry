@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Righteous&display=swap');
+
+
+/* SignUp.css */
+html {
+    height: 100%;
+    background: linear-gradient(to bottom, #4C3973, #2d1a3a);
+}
+
+body {
+    font-family: 'Kumbh', sans-serif;
+    background-color: #0A0A12;
+    background: linear-gradient(to bottom, #4C3973, #2d1a3a);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor-central {
+    position: fixed; /* O puedes usar 'absolute' si prefieres */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%; /* O el ancho que prefieras */
+    max-width: 500px; /* O el máximo ancho que prefieras */
+}
+
+.Fomulario-crearcuenta {
+    background-color: #fff;
+    padding: 60px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: #000000;
+    font-size: 18px;
+}
+
+input[type="email"],
+input[type="password"] {
+    padding: 12px;
+    margin: 8px;
+    border: 1px solid #ced4da;
+    border-radius: 20px;
+}
+
+input[type="submit"] {
+    padding: 15px;
+    font-size: 20px;
+    margin: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #BF264F;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+input[type="submit"]:hover {
+    background-color: #881836;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+
